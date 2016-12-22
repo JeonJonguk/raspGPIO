@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C1339E99DC5E71918A472CF /* libPods-GPIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE835D68CF026482FB37AD7 /* libPods-GPIO.a */; };
+		9438364F1E077E7500BEBAE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9438364E1E077E7500BEBAE4 /* main.m */; };
+		943836521E077E7500BEBAE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 943836511E077E7500BEBAE4 /* AppDelegate.m */; };
+		943836551E077E7500BEBAE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 943836541E077E7500BEBAE4 /* ViewController.m */; };
+		943836581E077E7500BEBAE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943836561E077E7500BEBAE4 /* Main.storyboard */; };
+		9438365A1E077E7500BEBAE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943836591E077E7500BEBAE4 /* Assets.xcassets */; };
+		9438365D1E077E7500BEBAE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9438365B1E077E7500BEBAE4 /* LaunchScreen.storyboard */; };
+		943836681E077E7500BEBAE4 /* GPIOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943836671E077E7500BEBAE4 /* GPIOTests.m */; };
+		943836731E077E7500BEBAE4 /* GPIOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943836721E077E7500BEBAE4 /* GPIOUITests.m */; };
+		943836851E07AF8200BEBAE4 /* background@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 943836841E07AF8200BEBAE4 /* background@2x.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		943836641E077E7500BEBAE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943836421E077E7500BEBAE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943836491E077E7500BEBAE4;
+			remoteInfo = GPIO;
+		};
+		9438366F1E077E7500BEBAE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943836421E077E7500BEBAE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943836491E077E7500BEBAE4;
+			remoteInfo = GPIO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EE7502D749564A23621B7F3 /* Pods-GPIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPIO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPIO/Pods-GPIO.debug.xcconfig"; sourceTree = "<group>"; };
+		6DE835D68CF026482FB37AD7 /* libPods-GPIO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPIO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9438364A1E077E7500BEBAE4 /* GPIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9438364E1E077E7500BEBAE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		943836501E077E7500BEBAE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		943836511E077E7500BEBAE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		943836531E077E7500BEBAE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		943836541E077E7500BEBAE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		943836571E077E7500BEBAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		943836591E077E7500BEBAE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9438365C1E077E7500BEBAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9438365E1E077E7500BEBAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943836631E077E7500BEBAE4 /* GPIOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPIOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		943836671E077E7500BEBAE4 /* GPIOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPIOTests.m; sourceTree = "<group>"; };
+		943836691E077E7500BEBAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9438366E1E077E7500BEBAE4 /* GPIOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPIOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		943836721E077E7500BEBAE4 /* GPIOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPIOUITests.m; sourceTree = "<group>"; };
+		943836741E077E7500BEBAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943836841E07AF8200BEBAE4 /* background@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background@2x.jpeg"; sourceTree = "<group>"; };
+		B193C9B0C6B0F3F4E51B0F9E /* Pods-GPIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPIO.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPIO/Pods-GPIO.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		943836471E077E7500BEBAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1339E99DC5E71918A472CF /* libPods-GPIO.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943836601E077E7500BEBAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9438366B1E077E7500BEBAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0581D623BB5AE6AED4C32300 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DE835D68CF026482FB37AD7 /* libPods-GPIO.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70E7C9007911B27D8DAE2410 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EE7502D749564A23621B7F3 /* Pods-GPIO.debug.xcconfig */,
+				B193C9B0C6B0F3F4E51B0F9E /* Pods-GPIO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		943836411E077E7500BEBAE4 = {
+			isa = PBXGroup;
+			children = (
+				9438364C1E077E7500BEBAE4 /* GPIO */,
+				943836661E077E7500BEBAE4 /* GPIOTests */,
+				943836711E077E7500BEBAE4 /* GPIOUITests */,
+				9438364B1E077E7500BEBAE4 /* Products */,
+				70E7C9007911B27D8DAE2410 /* Pods */,
+				0581D623BB5AE6AED4C32300 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9438364B1E077E7500BEBAE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9438364A1E077E7500BEBAE4 /* GPIO.app */,
+				943836631E077E7500BEBAE4 /* GPIOTests.xctest */,
+				9438366E1E077E7500BEBAE4 /* GPIOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9438364C1E077E7500BEBAE4 /* GPIO */ = {
+			isa = PBXGroup;
+			children = (
+				943836831E07AF8200BEBAE4 /* resources */,
+				943836501E077E7500BEBAE4 /* AppDelegate.h */,
+				943836511E077E7500BEBAE4 /* AppDelegate.m */,
+				943836531E077E7500BEBAE4 /* ViewController.h */,
+				943836541E077E7500BEBAE4 /* ViewController.m */,
+				943836561E077E7500BEBAE4 /* Main.storyboard */,
+				943836591E077E7500BEBAE4 /* Assets.xcassets */,
+				9438365B1E077E7500BEBAE4 /* LaunchScreen.storyboard */,
+				9438365E1E077E7500BEBAE4 /* Info.plist */,
+				9438364D1E077E7500BEBAE4 /* Supporting Files */,
+			);
+			path = GPIO;
+			sourceTree = "<group>";
+		};
+		9438364D1E077E7500BEBAE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9438364E1E077E7500BEBAE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		943836661E077E7500BEBAE4 /* GPIOTests */ = {
+			isa = PBXGroup;
+			children = (
+				943836671E077E7500BEBAE4 /* GPIOTests.m */,
+				943836691E077E7500BEBAE4 /* Info.plist */,
+			);
+			path = GPIOTests;
+			sourceTree = "<group>";
+		};
+		943836711E077E7500BEBAE4 /* GPIOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				943836721E077E7500BEBAE4 /* GPIOUITests.m */,
+				943836741E077E7500BEBAE4 /* Info.plist */,
+			);
+			path = GPIOUITests;
+			sourceTree = "<group>";
+		};
+		943836831E07AF8200BEBAE4 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				943836841E07AF8200BEBAE4 /* background@2x.jpeg */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		943836491E077E7500BEBAE4 /* GPIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943836771E077E7500BEBAE4 /* Build configuration list for PBXNativeTarget "GPIO" */;
+			buildPhases = (
+				C37E9210244B82779111498A /* [CP] Check Pods Manifest.lock */,
+				943836461E077E7500BEBAE4 /* Sources */,
+				943836471E077E7500BEBAE4 /* Frameworks */,
+				943836481E077E7500BEBAE4 /* Resources */,
+				6F083DB8DABFD47BD52707AA /* [CP] Embed Pods Frameworks */,
+				CF08299A4359FA903A8D524F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPIO;
+			productName = GPIO;
+			productReference = 9438364A1E077E7500BEBAE4 /* GPIO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		943836621E077E7500BEBAE4 /* GPIOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9438367A1E077E7600BEBAE4 /* Build configuration list for PBXNativeTarget "GPIOTests" */;
+			buildPhases = (
+				9438365F1E077E7500BEBAE4 /* Sources */,
+				943836601E077E7500BEBAE4 /* Frameworks */,
+				943836611E077E7500BEBAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943836651E077E7500BEBAE4 /* PBXTargetDependency */,
+			);
+			name = GPIOTests;
+			productName = GPIOTests;
+			productReference = 943836631E077E7500BEBAE4 /* GPIOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9438366D1E077E7500BEBAE4 /* GPIOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9438367D1E077E7600BEBAE4 /* Build configuration list for PBXNativeTarget "GPIOUITests" */;
+			buildPhases = (
+				9438366A1E077E7500BEBAE4 /* Sources */,
+				9438366B1E077E7500BEBAE4 /* Frameworks */,
+				9438366C1E077E7500BEBAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943836701E077E7500BEBAE4 /* PBXTargetDependency */,
+			);
+			name = GPIOUITests;
+			productName = GPIOUITests;
+			productReference = 9438366E1E077E7500BEBAE4 /* GPIOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		943836421E077E7500BEBAE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = kakao;
+				TargetAttributes = {
+					943836491E077E7500BEBAE4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GNXCAM6SCE;
+						ProvisioningStyle = Automatic;
+					};
+					943836621E077E7500BEBAE4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GNXCAM6SCE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 943836491E077E7500BEBAE4;
+					};
+					9438366D1E077E7500BEBAE4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GNXCAM6SCE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 943836491E077E7500BEBAE4;
+					};
+				};
+			};
+			buildConfigurationList = 943836451E077E7500BEBAE4 /* Build configuration list for PBXProject "GPIO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 943836411E077E7500BEBAE4;
+			productRefGroup = 9438364B1E077E7500BEBAE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				943836491E077E7500BEBAE4 /* GPIO */,
+				943836621E077E7500BEBAE4 /* GPIOTests */,
+				9438366D1E077E7500BEBAE4 /* GPIOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		943836481E077E7500BEBAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943836851E07AF8200BEBAE4 /* background@2x.jpeg in Resources */,
+				9438365D1E077E7500BEBAE4 /* LaunchScreen.storyboard in Resources */,
+				9438365A1E077E7500BEBAE4 /* Assets.xcassets in Resources */,
+				943836581E077E7500BEBAE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943836611E077E7500BEBAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9438366C1E077E7500BEBAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F083DB8DABFD47BD52707AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPIO/Pods-GPIO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C37E9210244B82779111498A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF08299A4359FA903A8D524F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPIO/Pods-GPIO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		943836461E077E7500BEBAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943836551E077E7500BEBAE4 /* ViewController.m in Sources */,
+				943836521E077E7500BEBAE4 /* AppDelegate.m in Sources */,
+				9438364F1E077E7500BEBAE4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9438365F1E077E7500BEBAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943836681E077E7500BEBAE4 /* GPIOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9438366A1E077E7500BEBAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943836731E077E7500BEBAE4 /* GPIOUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		943836651E077E7500BEBAE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943836491E077E7500BEBAE4 /* GPIO */;
+			targetProxy = 943836641E077E7500BEBAE4 /* PBXContainerItemProxy */;
+		};
+		943836701E077E7500BEBAE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943836491E077E7500BEBAE4 /* GPIO */;
+			targetProxy = 9438366F1E077E7500BEBAE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		943836561E077E7500BEBAE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943836571E077E7500BEBAE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9438365B1E077E7500BEBAE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9438365C1E077E7500BEBAE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		943836751E077E7500BEBAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		943836761E077E7500BEBAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		943836781E077E7600BEBAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE7502D749564A23621B7F3 /* Pods-GPIO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GNXCAM6SCE;
+				INFOPLIST_FILE = GPIO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakao.fintech.GPIO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		943836791E077E7600BEBAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B193C9B0C6B0F3F4E51B0F9E /* Pods-GPIO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GNXCAM6SCE;
+				INFOPLIST_FILE = GPIO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakao.fintech.GPIO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9438367B1E077E7600BEBAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GNXCAM6SCE;
+				INFOPLIST_FILE = GPIOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakao.fintech.GPIOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPIO.app/GPIO";
+			};
+			name = Debug;
+		};
+		9438367C1E077E7600BEBAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GNXCAM6SCE;
+				INFOPLIST_FILE = GPIOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakao.fintech.GPIOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPIO.app/GPIO";
+			};
+			name = Release;
+		};
+		9438367E1E077E7600BEBAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GNXCAM6SCE;
+				INFOPLIST_FILE = GPIOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakao.fintech.GPIOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GPIO;
+			};
+			name = Debug;
+		};
+		9438367F1E077E7600BEBAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GNXCAM6SCE;
+				INFOPLIST_FILE = GPIOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakao.fintech.GPIOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GPIO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		943836451E077E7500BEBAE4 /* Build configuration list for PBXProject "GPIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943836751E077E7500BEBAE4 /* Debug */,
+				943836761E077E7500BEBAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943836771E077E7500BEBAE4 /* Build configuration list for PBXNativeTarget "GPIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943836781E077E7600BEBAE4 /* Debug */,
+				943836791E077E7600BEBAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9438367A1E077E7600BEBAE4 /* Build configuration list for PBXNativeTarget "GPIOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9438367B1E077E7600BEBAE4 /* Debug */,
+				9438367C1E077E7600BEBAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9438367D1E077E7600BEBAE4 /* Build configuration list for PBXNativeTarget "GPIOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9438367E1E077E7600BEBAE4 /* Debug */,
+				9438367F1E077E7600BEBAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 943836421E077E7500BEBAE4 /* Project object */;
+}
