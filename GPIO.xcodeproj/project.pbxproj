@@ -17,6 +17,12 @@
 		943836681E077E7500BEBAE4 /* GPIOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943836671E077E7500BEBAE4 /* GPIOTests.m */; };
 		943836731E077E7500BEBAE4 /* GPIOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943836721E077E7500BEBAE4 /* GPIOUITests.m */; };
 		943836851E07AF8200BEBAE4 /* background@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 943836841E07AF8200BEBAE4 /* background@2x.jpeg */; };
+		94ADDE4C1E0CC14200391C13 /* background_open@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94ADDE461E0CC14200391C13 /* background_open@2x.png */; };
+		94ADDE4D1E0CC14200391C13 /* background_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94ADDE471E0CC14200391C13 /* background_close@2x.png */; };
+		94ADDE4E1E0CC14200391C13 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94ADDE481E0CC14200391C13 /* icon@2x.png */; };
+		94ADDE4F1E0CC14200391C13 /* btn_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94ADDE491E0CC14200391C13 /* btn_highlight@2x.png */; };
+		94ADDE501E0CC14200391C13 /* btn_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94ADDE4A1E0CC14200391C13 /* btn_close@2x.png */; };
+		94ADDE511E0CC14200391C13 /* btn_open@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94ADDE4B1E0CC14200391C13 /* btn_open@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +62,12 @@
 		943836721E077E7500BEBAE4 /* GPIOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPIOUITests.m; sourceTree = "<group>"; };
 		943836741E077E7500BEBAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		943836841E07AF8200BEBAE4 /* background@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background@2x.jpeg"; sourceTree = "<group>"; };
+		94ADDE461E0CC14200391C13 /* background_open@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_open@2x.png"; sourceTree = "<group>"; };
+		94ADDE471E0CC14200391C13 /* background_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_close@2x.png"; sourceTree = "<group>"; };
+		94ADDE481E0CC14200391C13 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		94ADDE491E0CC14200391C13 /* btn_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_highlight@2x.png"; sourceTree = "<group>"; };
+		94ADDE4A1E0CC14200391C13 /* btn_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_close@2x.png"; sourceTree = "<group>"; };
+		94ADDE4B1E0CC14200391C13 /* btn_open@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_open@2x.png"; sourceTree = "<group>"; };
 		B193C9B0C6B0F3F4E51B0F9E /* Pods-GPIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPIO.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPIO/Pods-GPIO.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,6 +182,12 @@
 		943836831E07AF8200BEBAE4 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				94ADDE461E0CC14200391C13 /* background_open@2x.png */,
+				94ADDE471E0CC14200391C13 /* background_close@2x.png */,
+				94ADDE481E0CC14200391C13 /* icon@2x.png */,
+				94ADDE491E0CC14200391C13 /* btn_highlight@2x.png */,
+				94ADDE4A1E0CC14200391C13 /* btn_close@2x.png */,
+				94ADDE4B1E0CC14200391C13 /* btn_open@2x.png */,
 				943836841E07AF8200BEBAE4 /* background@2x.jpeg */,
 			);
 			path = resources;
@@ -245,7 +263,7 @@
 				TargetAttributes = {
 					943836491E077E7500BEBAE4 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = GNXCAM6SCE;
+						DevelopmentTeam = S3XX8BE74N;
 						ProvisioningStyle = Automatic;
 					};
 					943836621E077E7500BEBAE4 = {
@@ -287,10 +305,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94ADDE4E1E0CC14200391C13 /* icon@2x.png in Resources */,
+				94ADDE511E0CC14200391C13 /* btn_open@2x.png in Resources */,
 				943836851E07AF8200BEBAE4 /* background@2x.jpeg in Resources */,
 				9438365D1E077E7500BEBAE4 /* LaunchScreen.storyboard in Resources */,
 				9438365A1E077E7500BEBAE4 /* Assets.xcassets in Resources */,
+				94ADDE4F1E0CC14200391C13 /* btn_highlight@2x.png in Resources */,
 				943836581E077E7500BEBAE4 /* Main.storyboard in Resources */,
+				94ADDE4C1E0CC14200391C13 /* background_open@2x.png in Resources */,
+				94ADDE501E0CC14200391C13 /* btn_close@2x.png in Resources */,
+				94ADDE4D1E0CC14200391C13 /* background_close@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,7 +537,7 @@
 			baseConfigurationReference = 1EE7502D749564A23621B7F3 /* Pods-GPIO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GNXCAM6SCE;
+				DEVELOPMENT_TEAM = S3XX8BE74N;
 				INFOPLIST_FILE = GPIO/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -527,7 +551,7 @@
 			baseConfigurationReference = B193C9B0C6B0F3F4E51B0F9E /* Pods-GPIO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GNXCAM6SCE;
+				DEVELOPMENT_TEAM = S3XX8BE74N;
 				INFOPLIST_FILE = GPIO/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

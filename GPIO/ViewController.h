@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *btnOpen;
+@property (weak, nonatomic) IBOutlet UIImageView *backgroundImageView;
 - (IBAction)onOpenDoor:(id)sender;
 
 @end

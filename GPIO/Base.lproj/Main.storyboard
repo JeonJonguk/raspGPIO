@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,15 +20,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="m0O-F3-K8r">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_close.png" translatesAutoresizingMaskIntoConstraints="NO" id="m0O-F3-K8r">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNz-gq-QhX">
-                                <rect key="frame" x="32" y="257" width="160" height="54"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
-                                <state key="normal" title="열려라 참깨">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNz-gq-QhX">
+                                <rect key="frame" x="30.5" y="121.5" width="259" height="285"/>
+                                <state key="normal" image="btn_close.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <state key="disabled" image="btn_open.png"/>
+                                <state key="selected" image="btn_open.png"/>
+                                <state key="highlighted" image="btn_highlight.png"/>
                                 <connections>
                                     <action selector="onOpenDoor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ACS-zC-eLl"/>
                                 </connections>
@@ -37,13 +39,17 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="m0O-F3-K8r" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7Rt-Aw-ilh"/>
-                            <constraint firstItem="SNz-gq-QhX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CIj-UY-6wm"/>
+                            <constraint firstItem="SNz-gq-QhX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-20" id="CIj-UY-6wm"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="m0O-F3-K8r" secondAttribute="bottom" id="J7t-Ha-5qz"/>
                             <constraint firstItem="m0O-F3-K8r" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="iDb-Gj-qFy"/>
+                            <constraint firstItem="SNz-gq-QhX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jN2-eC-G2d"/>
                             <constraint firstAttribute="trailing" secondItem="m0O-F3-K8r" secondAttribute="trailing" id="mf9-91-HgU"/>
-                            <constraint firstItem="SNz-gq-QhX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="32" id="qUc-HX-enA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="m0O-F3-K8r" id="fAa-cA-45v"/>
+                        <outlet property="btnOpen" destination="SNz-gq-QhX" id="0lE-ax-DvL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -51,6 +57,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background.jpeg" width="540" height="960"/>
+        <image name="background_close.png" width="375" height="667"/>
+        <image name="btn_close.png" width="259" height="285"/>
+        <image name="btn_highlight.png" width="259" height="285"/>
+        <image name="btn_open.png" width="259" height="285"/>
     </resources>
 </document>
