@@ -13,7 +13,6 @@
 		943836551E077E7500BEBAE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 943836541E077E7500BEBAE4 /* ViewController.m */; };
 		943836581E077E7500BEBAE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943836561E077E7500BEBAE4 /* Main.storyboard */; };
 		9438365A1E077E7500BEBAE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943836591E077E7500BEBAE4 /* Assets.xcassets */; };
-		9438365D1E077E7500BEBAE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9438365B1E077E7500BEBAE4 /* LaunchScreen.storyboard */; };
 		943836681E077E7500BEBAE4 /* GPIOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943836671E077E7500BEBAE4 /* GPIOTests.m */; };
 		943836731E077E7500BEBAE4 /* GPIOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943836721E077E7500BEBAE4 /* GPIOUITests.m */; };
 		943836851E07AF8200BEBAE4 /* background@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 943836841E07AF8200BEBAE4 /* background@2x.jpeg */; };
@@ -23,6 +22,13 @@
 		94ADDE4F1E0CC14200391C13 /* btn_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94ADDE491E0CC14200391C13 /* btn_highlight@2x.png */; };
 		94ADDE501E0CC14200391C13 /* btn_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94ADDE4A1E0CC14200391C13 /* btn_close@2x.png */; };
 		94ADDE511E0CC14200391C13 /* btn_open@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94ADDE4B1E0CC14200391C13 /* btn_open@2x.png */; };
+		94ADDE531E0D036D00391C13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94ADDE521E0D036D00391C13 /* Images.xcassets */; };
+		94E489631E0D1ADD00C5D28B /* navi_back_w@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E489621E0D1ADD00C5D28B /* navi_back_w@2x.png */; };
+		94E489661E0D24B900C5D28B /* open.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94E489651E0D24B900C5D28B /* open.mp3 */; };
+		94E489691E0D2B0900C5D28B /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E489681E0D2B0900C5D28B /* SettingViewController.m */; };
+		94E4896B1E0D30CA00C5D28B /* setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E4896A1E0D30CA00C5D28B /* setting@2x.png */; };
+		94E4896D1E0D320100C5D28B /* down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E4896C1E0D320100C5D28B /* down@2x.png */; };
+		94E4896F1E0D32CB00C5D28B /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E4896E1E0D32CB00C5D28B /* close@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +59,6 @@
 		943836541E077E7500BEBAE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		943836571E077E7500BEBAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		943836591E077E7500BEBAE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9438365C1E077E7500BEBAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9438365E1E077E7500BEBAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		943836631E077E7500BEBAE4 /* GPIOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPIOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		943836671E077E7500BEBAE4 /* GPIOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPIOTests.m; sourceTree = "<group>"; };
@@ -68,6 +73,14 @@
 		94ADDE491E0CC14200391C13 /* btn_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_highlight@2x.png"; sourceTree = "<group>"; };
 		94ADDE4A1E0CC14200391C13 /* btn_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_close@2x.png"; sourceTree = "<group>"; };
 		94ADDE4B1E0CC14200391C13 /* btn_open@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_open@2x.png"; sourceTree = "<group>"; };
+		94ADDE521E0D036D00391C13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94E489621E0D1ADD00C5D28B /* navi_back_w@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navi_back_w@2x.png"; sourceTree = "<group>"; };
+		94E489651E0D24B900C5D28B /* open.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = open.mp3; sourceTree = "<group>"; };
+		94E489671E0D2B0900C5D28B /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		94E489681E0D2B0900C5D28B /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		94E4896A1E0D30CA00C5D28B /* setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting@2x.png"; sourceTree = "<group>"; };
+		94E4896C1E0D320100C5D28B /* down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down@2x.png"; sourceTree = "<group>"; };
+		94E4896E1E0D32CB00C5D28B /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
 		B193C9B0C6B0F3F4E51B0F9E /* Pods-GPIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPIO.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPIO/Pods-GPIO.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,10 +157,12 @@
 				943836511E077E7500BEBAE4 /* AppDelegate.m */,
 				943836531E077E7500BEBAE4 /* ViewController.h */,
 				943836541E077E7500BEBAE4 /* ViewController.m */,
+				94E489671E0D2B0900C5D28B /* SettingViewController.h */,
+				94E489681E0D2B0900C5D28B /* SettingViewController.m */,
 				943836561E077E7500BEBAE4 /* Main.storyboard */,
 				943836591E077E7500BEBAE4 /* Assets.xcassets */,
-				9438365B1E077E7500BEBAE4 /* LaunchScreen.storyboard */,
 				9438365E1E077E7500BEBAE4 /* Info.plist */,
+				94ADDE521E0D036D00391C13 /* Images.xcassets */,
 				9438364D1E077E7500BEBAE4 /* Supporting Files */,
 			);
 			path = GPIO;
@@ -182,6 +197,7 @@
 		943836831E07AF8200BEBAE4 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				94E489641E0D24B900C5D28B /* sound */,
 				94ADDE461E0CC14200391C13 /* background_open@2x.png */,
 				94ADDE471E0CC14200391C13 /* background_close@2x.png */,
 				94ADDE481E0CC14200391C13 /* icon@2x.png */,
@@ -189,8 +205,20 @@
 				94ADDE4A1E0CC14200391C13 /* btn_close@2x.png */,
 				94ADDE4B1E0CC14200391C13 /* btn_open@2x.png */,
 				943836841E07AF8200BEBAE4 /* background@2x.jpeg */,
+				94E489621E0D1ADD00C5D28B /* navi_back_w@2x.png */,
+				94E4896A1E0D30CA00C5D28B /* setting@2x.png */,
+				94E4896E1E0D32CB00C5D28B /* close@2x.png */,
+				94E4896C1E0D320100C5D28B /* down@2x.png */,
 			);
 			path = resources;
+			sourceTree = "<group>";
+		};
+		94E489641E0D24B900C5D28B /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				94E489651E0D24B900C5D28B /* open.mp3 */,
+			);
+			path = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +286,7 @@
 		943836421E077E7500BEBAE4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = kakao;
 				TargetAttributes = {
 					943836491E077E7500BEBAE4 = {
@@ -305,13 +333,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E4896F1E0D32CB00C5D28B /* close@2x.png in Resources */,
 				94ADDE4E1E0CC14200391C13 /* icon@2x.png in Resources */,
+				94E489631E0D1ADD00C5D28B /* navi_back_w@2x.png in Resources */,
 				94ADDE511E0CC14200391C13 /* btn_open@2x.png in Resources */,
 				943836851E07AF8200BEBAE4 /* background@2x.jpeg in Resources */,
-				9438365D1E077E7500BEBAE4 /* LaunchScreen.storyboard in Resources */,
+				94E4896D1E0D320100C5D28B /* down@2x.png in Resources */,
+				94ADDE531E0D036D00391C13 /* Images.xcassets in Resources */,
 				9438365A1E077E7500BEBAE4 /* Assets.xcassets in Resources */,
+				94E4896B1E0D30CA00C5D28B /* setting@2x.png in Resources */,
 				94ADDE4F1E0CC14200391C13 /* btn_highlight@2x.png in Resources */,
 				943836581E077E7500BEBAE4 /* Main.storyboard in Resources */,
+				94E489661E0D24B900C5D28B /* open.mp3 in Resources */,
 				94ADDE4C1E0CC14200391C13 /* background_open@2x.png in Resources */,
 				94ADDE501E0CC14200391C13 /* btn_close@2x.png in Resources */,
 				94ADDE4D1E0CC14200391C13 /* background_close@2x.png in Resources */,
@@ -390,6 +423,7 @@
 				943836551E077E7500BEBAE4 /* ViewController.m in Sources */,
 				943836521E077E7500BEBAE4 /* AppDelegate.m in Sources */,
 				9438364F1E077E7500BEBAE4 /* main.m in Sources */,
+				94E489691E0D2B0900C5D28B /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,14 +467,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9438365B1E077E7500BEBAE4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9438365C1E077E7500BEBAE4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -462,6 +488,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -509,6 +536,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -537,6 +565,7 @@
 			baseConfigurationReference = 1EE7502D749564A23621B7F3 /* Pods-GPIO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = S3XX8BE74N;
 				INFOPLIST_FILE = GPIO/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -551,6 +580,7 @@
 			baseConfigurationReference = B193C9B0C6B0F3F4E51B0F9E /* Pods-GPIO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = S3XX8BE74N;
 				INFOPLIST_FILE = GPIO/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
