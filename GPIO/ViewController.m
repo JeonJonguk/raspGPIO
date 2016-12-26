@@ -36,6 +36,8 @@ typedef NS_ENUM(NSUInteger, eState) {
     _isNetworking = NO;
     [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
     self.afManager.responseSerializer = [AFJSONResponseSerializer serializer];
+    self.afManager.requestSerializer = [AFJSONRequestSerializer serializer];
+    self.afManager.requestSerializer.timeoutInterval = 5.0;
     
     
     self.indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];

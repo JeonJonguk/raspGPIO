@@ -25,7 +25,7 @@ NSString * kApiKey = @"api_url";
     if (baseUrl.length > 0) {
         self.baseUrlTextField.text = baseUrl;
     }
-    
+
     NSString* apiUrl = [[NSUserDefaults standardUserDefaults] objectForKey:kApiKey];
     if (apiUrl.length > 0) {
         self.apiTextField.text = apiUrl;
@@ -65,9 +65,9 @@ NSString * kApiKey = @"api_url";
         if (string.length == 0) {
             [self showAlert:@"무엇인가가 잘못되었다!" text:@"url이 없잖아!"];
             return NO;
-        } else if(![string hasPrefix:@"http"]) {
-            [self showAlert:@"무엇인가가 잘못되었다!" text:@"주소가 잘못되었어!"];
-            return NO;
+//        } else if(![string hasPrefix:@"http"]) {
+//            [self showAlert:@"무엇인가가 잘못되었다!" text:@"주소가 잘못되었어!"];
+//            return NO;
         }
         [[NSUserDefaults standardUserDefaults] setObject:string forKey:kBaseUrlKey];
     } else if(textField == self.apiTextField) {
