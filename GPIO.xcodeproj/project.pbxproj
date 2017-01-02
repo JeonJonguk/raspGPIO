@@ -291,7 +291,7 @@
 				TargetAttributes = {
 					943836491E077E7500BEBAE4 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = S3XX8BE74N;
+						DevelopmentTeam = GNXCAM6SCE;
 						ProvisioningStyle = Automatic;
 					};
 					943836621E077E7500BEBAE4 = {
@@ -566,7 +566,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = S3XX8BE74N;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GNXCAM6SCE;
 				INFOPLIST_FILE = GPIO/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -581,7 +582,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = S3XX8BE74N;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GNXCAM6SCE;
 				INFOPLIST_FILE = GPIO/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
