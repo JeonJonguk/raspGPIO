@@ -36,6 +36,8 @@ NSString * kApiKey = @"api_url";
     downSwipeGesture.direction = UISwipeGestureRecognizerDirectionDown;
     [self.view addGestureRecognizer:downSwipeGesture];
     
+    //다다다
+    
 }
 
 - (void)didReceiveMemoryWarning {
