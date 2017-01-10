@@ -178,7 +178,7 @@ typedef NS_ENUM(NSUInteger, eState) {
         self.btnBack.alpha = endAlpha;
     }];
     //가
-    
+    //나
 }
 
 
