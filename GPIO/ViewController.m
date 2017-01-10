@@ -177,6 +177,7 @@ typedef NS_ENUM(NSUInteger, eState) {
     } completion:^(BOOL finished) {
         self.btnBack.alpha = endAlpha;
     }];
+    //가
     
 }
 
